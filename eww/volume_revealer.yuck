@@ -1,0 +1,33 @@
+(include "./container.yuck")
+
+(defvar shown false)
+(defpoll volume :interval "1s" "pamixer --get-volume")
+
+(defwidget volume_revealer []
+  (eventbox
+    :onhover "${EWW_CMD} update shown=true"
+    :onhoverlost "${EWW_CMD} update shown=false"
+    (box
+      :class "container volume-revealer"
+      :space-evenly false
+      (revealer
+        :transition "slideleft"
+        :reveal shown
+        (scale
+          :round-digits "0"
+          :name "Volume"
+          :min "0f"
+          :max "101f"
+          :hexpand true
+          :width "100"
+          :value volume
+          :onchange "pactl set-sink-volume 0 {}%"
+        )
+      )
+      (box
+        :class "purple text-button"
+        {volume == "0" ? "" : ""}
+      )
+    )
+  )
+)

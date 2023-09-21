@@ -1,0 +1,27 @@
+(include "./container.yuck")
+
+(defwindow calendar
+  :monitor 0
+  :geometry (geometry :x "-67"
+              :y "50px"
+              :width "450px"
+              :height "200px"
+              :anchor "top right")
+  :class "calendar"
+  :stacking "bottom"
+  :windowtype "toolbar"
+  :wm-ignore true
+  (rootc) 
+  )
+
+(defwidget rootc []
+  (eventbox
+    :onhoverlost "${EWW_CMD} close calendar && ${EWW_CMD} update symbol=''"
+    (container
+      (calendar
+        :show-details true
+        :show-heading true
+      )
+    )
+  )
+)

@@ -1,0 +1,42 @@
+(include "./container.yuck")
+
+(defwindow power
+  :monitor 0
+  :geometry (geometry :x "-9px"
+                :y "50px"
+                :width "50px"
+                :height "140px"
+                :anchor "top right")
+  :class "power"
+  :stacking "bottom"
+  :windowtype "toolbar"
+  :wm-ignore true
+  (root)
+)
+
+(defwidget root []
+  (eventbox
+    :class "power"
+    :onhoverlost "${EWW_CMD} close power"
+    (box
+      :class "container"
+      :orientation "v"
+      :space-evenly true
+      (button
+        :class "text-button blue"
+        :onclick "pkill awesome & pkill bspwm & pkill sxhkd & pkill eww"
+        ""
+        )
+      (button
+        :class "text-button purple"
+        :onclick "reboot"
+        ""
+        )
+      (button
+        :class "text-button red"
+        :onclick "shutdown now"
+        "󰐥"
+        )
+      )
+    )
+  )

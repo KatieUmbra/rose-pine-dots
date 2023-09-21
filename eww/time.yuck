@@ -1,0 +1,21 @@
+(include "./container.yuck")
+
+(defvar symbol "")
+
+(defpoll time :interval "1s"
+    :initial "0:0:0"
+    "date +%r"
+)
+
+(defwidget time []
+  (container
+    (button
+      :class "text-button large-font purple"
+      :width "150"
+      :onclick {symbol == "" ?
+      "${EWW_CMD} update symbol='' && ${EWW_CMD} open --toggle calendar" : 
+      "${EWW_CMD} update symbol='' && ${EWW_CMD} open --toggle calendar"}
+      "${time} ${symbol}"
+    )
+  )
+)

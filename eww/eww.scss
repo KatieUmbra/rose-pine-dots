@@ -1,0 +1,127 @@
+$blue: #d6e6ff;
+$green: #d7f9f8;
+$yellow: #ffffea;
+$orange: #fff0d4;
+$red: #fbe0e0; 
+$purple: #e5d4ef;
+$gray_light: #505050;
+$gray_dark: #282828;
+
+* {
+	font-family: "Work Sans", "Cousine Nerd Font", serif;
+	border-color: transparent;
+	border-width: 0;
+	outline-width: 0;
+	-gtk-icon-theme: "NordArc-Icons";
+}
+
+// Windows
+
+.bar, .power, .calendar {
+	background-color: transparent;
+}
+
+// Global container
+
+.container {
+	margin: 5px 2.5px;
+	padding: 5px 5px;
+	background-color: $gray_dark;
+	border-radius: 10px;
+}
+
+// Global button with text
+
+.text-button, calendar {
+  padding: 1px 6px 1px 3px;
+  background-color: $gray_dark;
+}
+
+// Left Frame
+// ----------
+
+// Center Frame
+// ----------
+
+// Right Frame
+// ---------- 
+
+// Volume
+// Media Revealer
+.volume-revealer, .media-revealer {
+	background-color: $gray_dark;
+	padding: 0px 9px 0px 6px;
+	revealer box {
+		label {
+			margin: 0px 5px;
+		}
+	}
+}
+
+// System Information
+
+.blob {
+	background-color: white;
+	margin: 0px 2.5px;
+	padding: 0px 2.5px;
+	color: $gray_dark;
+	border-radius: 5px;
+}
+
+// Color
+
+.blue {
+	color: $blue;
+}
+
+.green {
+	color: $green;
+}
+
+.yellow {
+	color: $yellow;
+}
+
+.orange {
+	color: $orange;
+}
+
+.red {
+	color: $red;
+}
+
+.purple {
+	color: $purple;
+}
+
+// background-color
+
+.blue-bg {
+	background-color: $blue;
+}
+
+.green-bg  {
+	background-color: $green;
+}
+
+.yellow-bg  {
+	background-color: $yellow;
+}
+
+.orange-bg  {
+	background-color: $orange;
+}
+
+.red-bg  {
+	background-color: $red;
+}
+
+.purple-bg  {
+	background-color: $purple;
+}
+
+// Font
+
+.large-font {
+	font-size: 12pt;
+}

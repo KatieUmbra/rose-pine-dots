@@ -1,0 +1,11 @@
+(include "./container.yuck")
+
+(defwidget power_button []
+  (container
+    (button
+      :class "text-button blue"
+      :onclick "${EWW_CMD} open --toggle power"
+      ""
+    )
+  )
+)

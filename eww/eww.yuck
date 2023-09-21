@@ -1,0 +1,52 @@
+(include "./container.yuck")
+(include "./frames.yuck")
+
+(include "./launcher.yuck")
+(include "./workspaces.yuck")
+
+(include "./player_control.yuck")
+
+(include "./media_revealer.yuck")
+(include "./volume_revealer.yuck")
+(include "./system_info.yuck")
+(include "./time.yuck")
+(include "./power_button.yuck")
+
+(include "./power.yuck")
+(include "./calendar.yuck")
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry :x "0%"
+              :y "0px"
+              :width "100%"
+              :height "30px"
+              :anchor "top center")
+  :class "bar"
+  :stacking "bottom"
+  :focusable false
+  :reserve (struts :distance "30px" :side "top")
+  :windowtype "dock"
+  :wm-ignore false
+  (main)
+)
+
+(defwidget main []
+  (centerbox
+    :orientation "h"
+    (frameleft
+      (launcher)
+      (workspaces)
+    )
+    (framecenter
+      (playerctrl)
+    )
+    (frameright
+      (media_revealer)
+      (volume_revealer)
+      (system_info)
+      (time)
+      (power_button)
+    )
+  )
+)

@@ -1,0 +1,48 @@
+(include "./container.yuck")
+
+(defpoll isPlaying :interval "5s" "playerctl metadata --format '{{title}} - {{artist}}'")
+(defvar mediaShown false)
+(defpoll currentTime :interval "1s" "playerctl metadata --format '{{position}}'")
+(defpoll length :interval "5s" "playerctl metadata --format '{{mpris:length}}'")
+
+(defpoll t :interval "1s" "playerctl metadata --format '{{duration(position)}}'")
+(defpoll l :interval "5s" "playerctl metadata --format '{{duration(mpris:length)}}'")
+
+(defwidget media_revealer []
+  (eventbox
+    :onhover "${EWW_CMD} update mediaShown=true"
+    :onhoverlost "${EWW_CMD} update mediaShown=false"
+    (box
+      :class "container media-revealer"
+      :space-evenly false
+      (revealer
+        :reveal mediaShown
+        :transition "slideLeft"
+        (box
+          :space-evenly false
+          (label 
+            :text "${isPlaying}" 
+            :class "blue" 
+            :limit-width 30
+          )
+          (label
+            :class "blue"
+            :text "${t}"
+          )
+          (progress
+            :class "blue"
+            :value "${round(currentTime * 100 / length, 0)}" 
+            :valign "center")
+          (label 
+            :class "blue"
+            :text "${l}"
+          )
+        ) 
+      )
+      (box
+        :class "text-button blue"
+        ""
+      )
+    )
+  )
+)

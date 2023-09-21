@@ -1,0 +1,29 @@
+(defwidget frameleft []
+  (box
+    :class "frame"
+    :orientation "h"
+    :space-evenly false
+    :halign "start"
+    (children)
+    )
+  )
+
+(defwidget framecenter []
+    (box
+        :class "frame"
+        :orientation "h"
+        :space-evenly false
+        :halign "center"
+        (children)
+    )
+)
+
+(defwidget frameright []
+    (box
+        :class "frame"
+        :orientation "h"
+        :space-evenly false
+        :halign "end"
+        (children)
+    )
+)

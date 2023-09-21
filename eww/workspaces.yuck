@@ -1,0 +1,54 @@
+(include "./container.yuck")
+(include "./frames.yuck")
+
+(deflisten desktop :initial "0" "xprop -spy -root _NET_CURRENT_DESKTOP")
+
+(defwidget workspaces []
+  (container
+   (button :onclick "wmctrl -s 0"
+           :class "text-button red"
+           :active true
+           {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 0" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 1"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 1" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 2"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 2" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 3"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 3" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 4"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 4" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 5"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 5" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 6"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 6" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 7"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 7" ? "" : ""}
+    )
+    (button :onclick "wmctrl -s 8"
+            :class "text-button red"
+            :active true
+            {desktop == "_NET_CURRENT_DESKTOP(CARDINAL) = 8" ? "" : ""}
+    )
+  )
+)

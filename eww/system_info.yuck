@@ -1,0 +1,30 @@
+(include "./container.yuck")
+
+(defpoll internet :interval "2s"
+  :initial "1" 
+  "./scripts/internet.sh"
+)
+
+(defwidget system_info []
+  (container
+    (label
+      :text "󱛟 ${100 - round((EWW_DISK["/"].free / EWW_DISK["/"].total) * 100, 0)}%"
+      :class "blob blue-bg"
+      :xalign 0.5
+    )
+    (label
+      :text "󰍛 ${EWW_TEMPS.AMDGPU_EDGE}°"
+      :class "blob purple-bg"
+      :xalign 0.5
+    )
+    (label
+      :text "  ${round(EWW_RAM.used_mem_perc, 0)}%"
+      :class "blob red-bg"
+      :xalign 0.5
+    )
+    (label
+      :text {internet == "0" ? "󰖩" : "󰖪"}
+      :xalign 0.5
+    )
+  )
+)
