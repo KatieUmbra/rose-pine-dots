@@ -4,7 +4,7 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 # Installation
 
 
-- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org) for theme related dependencies and/or use a package manager, eg `yay -S wmctrl`), for theming download the `.tar.gz` files and extract them in `~/.themes` and `~/.icons` and also `/usr/share/themes` and `/usr/share/icons` respectively. apply both the widget themes and cursor themes with `lxappearance` both user and root (use `sudo lxappearance` for root). or alternatively [follow the arch wiki instructions](https://wiki.archlinux.org/title/GTK#Configuration) (FIY rose pine is the theme, nord are the icons).
+- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org) for theme related dependencies and/or use a package manager, eg `yay -S wmctrl trash-cli`), for theming download the `.tar.gz` files and extract them in `~/.themes` and `~/.icons` and also `/usr/share/themes` and `/usr/share/icons` respectively. apply both the widget themes and cursor themes with `lxappearance` both user and root (use `sudo lxappearance` for root). or alternatively [follow the arch wiki instructions](https://wiki.archlinux.org/title/GTK#Configuration) (FIY rose pine is the theme, nord are the icons).
 
 - Install the [software](#software) with your preferred package manager. eg
 
@@ -57,6 +57,8 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 [Nord Cursors](https://www.gnome-look.org/p/1571937)
 
 [Window Manager Control](https://www.freedesktop.org/wiki/Software/wmctrl/)
+
+[Trash Utility](https://github.com/andreafrancia/trash-cli)
 
 # Software
 
