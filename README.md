@@ -11,6 +11,7 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
   `yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot`
 
 - run `cd ~/.config && git clone https://github.com/KatieUmbra/rose-pine-dots`
+- copy the contents of the configuration `cp rose-pine-dots/* .`
 
 # Examples
 
