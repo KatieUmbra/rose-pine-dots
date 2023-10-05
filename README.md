@@ -3,11 +3,14 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 
 # Installation
 
-Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org))
 
-Install the software with your preferred package manager. eg
+- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org))
 
-`yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot`
+  Install the software with your preferred package manager. eg
+
+  `yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot`
+
+- run `cd ~/.config && git clone https://github.com/KatieUmbra/rose-pine-dots`
 
 # Examples
 
