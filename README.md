@@ -4,14 +4,28 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 # Installation
 
 
-- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org))
+- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org) for theme related dependencies), for theming download the `.tar.gz` files and extract them in `~/.themes` and `~/.icons` and also `/usr/share/themes` and `/usr/share/icons` respectively. apply both the widget themes and cursor themes with `lxappearance` both user and root (use sudo for root). or alternatively [follow the arch wiki instructions](https://wiki.archlinux.org/title/GTK#Configuration)
 
-  Install the software with your preferred package manager. eg
+- Install the [software](#software) with your preferred package manager. eg
 
   `yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot`
 
+- install fonts `yay -S ttf-cousine-nerd ttf-work-sans ttf-firacode-nerd`
+
 - run `cd ~/.config && git clone https://github.com/KatieUmbra/rose-pine-dots`
+
 - copy the contents of the configuration `cp rose-pine-dots/* .`
+
+- run `eww inspector` then go to `visual` and select `rose-pine-moon-gtk`
+
+- configure [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+
+# Customization
+
+- Inside `~/.config/starship.toml` change `kathy` in the 4th line to your name
+- Inside `~/.config/bspwm/bspwmrc` change `/home/Katie/Pictures/wallpaper-pink.png` in the 27th line to your preferred wallpaper's path
+- Inside `~/.config/kitty/kitty.conf` change `/home/Katie/Pictures/terminal-background.png` in the 25th line to your preferred background image's path
+- RECOMMENDED: use `Lxappearance` to change user and root font to `Work Sans - Regular - 12pt`
 
 # Examples
 
@@ -39,6 +53,8 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 [Rose Pine GTK Theme](https://github.com/rose-pine/gtk)
 
 [Nord Cursors](https://www.gnome-look.org/p/1571937)
+
+[Window Manager Control](https://www.freedesktop.org/wiki/Software/wmctrl/)
 
 # Software
 
