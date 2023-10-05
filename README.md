@@ -18,7 +18,7 @@ Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
 
 - run `eww inspector` then go to `visual` and select `rose-pine-moon-gtk`.
 
-- configure [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation).
+- setup [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) in your shell.
 
 # Customization
 
