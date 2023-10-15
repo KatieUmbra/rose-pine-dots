@@ -1,33 +1,52 @@
-# rose-pine-dots
-Rose Pine Dotfiles, neovim config: https://github.com/KatieUmbra/Neovim
+# Rose Pine Dotfiles
 
-# Installation
+Rose Pine Dotfiles is a collection of configuration files for a Linux desktop environment, featuring the popular Rose Pine theme and a variety of software applications. It includes customizations for bspwm, cava, dunst, eww, starship, kitty, and more. The goal is to help you set up a stylish and functional Linux desktop environment quickly.
 
+## Installation
 
-- Install all the [dependencies](#dependencies) (I recommend to use the [gnome store](https://www.gnome-look.org) for theme related dependencies and/or use a package manager, eg `yay -S wmctrl trash-cli`), for theming download the `.tar.gz` files and extract them in `~/.themes` and `~/.icons` and also `/usr/share/themes` and `/usr/share/icons` respectively. apply both the widget themes and cursor themes with `lxappearance` both user and root (use `sudo lxappearance` for root). or alternatively [follow the arch wiki instructions](https://wiki.archlinux.org/title/GTK#Configuration) (FIY rose pine is the theme, nord are the icons).
+### Dependencies
 
-- Install the [software](#software) with your preferred package manager. eg
+Before you get started, make sure to install the necessary dependencies:
 
-  `yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot`.
+- Theme-related dependencies can be obtained from the [Gnome Store](https://www.gnome-look.org) or your package manager. Download the `.tar.gz` files and extract them in `~/.themes` and `~/.icons`, as well as in `/usr/share/themes` and `/usr/share/icons`.
+- Apply both widget and cursor themes with `lxappearance` for both the user and root (you can use `sudo lxappearance` for root). Note that the theme is "Rose Pine," and the icons are "Nord."
 
-- install fonts `yay -S ttf-cousine-nerd ttf-work-sans ttf-firacode-nerd`.
+### Software
 
-- run `cd ~/.config && git clone https://github.com/KatieUmbra/rose-pine-dots`.
+Install the required software with your preferred package manager. For example:
 
-- copy the contents of the configuration `cp rose-pine-dots/* .`.
+```bash
+yay -S cava dunst eww starship kitty bspwm sxhkd neofetch lxappearance rofi llvm picom flameshot
+```
 
-- run `eww inspector` then go to `visual` and select `rose-pine-moon-gtk`.
+Install the necessary fonts:
 
-- setup [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) in your shell.
+```bash
+yay -S ttf-cousine-nerd ttf-work-sans ttf-firacode-nerd
+```
 
-# Customization
+Clone this repository and copy its contents:
 
-- Inside `~/.config/starship.toml` change `kathy` in the 4th line to your name
-- Inside `~/.config/bspwm/bspwmrc` change `/home/Katie/Pictures/wallpaper-pink.png` in the 27th line to your preferred wallpaper's path.
-- Inside `~/.config/kitty/kitty.conf` change `/home/Katie/Pictures/terminal-background.png` in the 25th line to your preferred background image's path.
-- Inside `~/.config/cava/config` remove the 78th line and uncomment the line with your respective audio server. (for example if you're using pulseaudio remove the line and uncomment `; method = pulse` by removing the `;` character).
-- If you prefer to use a different terminal different from kitty, change `kitty` in line 7 to your preferred terminal inside `~/.config/sxhkd/sxkhdrc`.
-- RECOMMENDED: use `Lxappearance` to change user and root font to `Work Sans - Regular - 12pt`.
+```bash
+cd ~/.config
+git clone https://github.com/KatieUmbra/rose-pine-dots
+cp rose-pine-dots/* .
+```
+
+Run `eww inspector` and select the "rose-pine-moon-gtk" visual configuration.
+
+Set up [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) in your shell.
+
+### Customization
+
+You can customize the configuration to your liking:
+
+ - Modify your name in `~/.config/starship.toml` on the 4th line.
+ - Change the wallpaper path in `~/.config/bspwm/bspwmrc` on the 27th line.
+ - Adjust the background image path in `~/.config/kitty/kitty.conf` on the 25th line.
+ - In `~/.config/cava/config`, remove the 78th line and uncomment the line corresponding to your audio server (e.g., `method = pulse` for PulseAudio).
+ - If you prefer a different terminal from Kitty, change "kitty" in `~/.config/sxhkd/sxkhdrc` on line 7.
+ - Recommended: Use Lxappearance to set the font to "Work Sans - Regular - 12pt" for both user and root.
 
 # Examples
 
