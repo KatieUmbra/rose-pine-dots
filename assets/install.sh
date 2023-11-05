@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Function to check if a command is available
 command_exists() {
@@ -54,11 +54,7 @@ yay -S ttf-cousine-nerd ttf-work-sans ttf-firacode-nerd
 # Clone Configuration Files
 echo "Cloning configuration files..."
 cd ~/.config
-git clone https://github.com/KatieUmbra/rose-pine-dots
-
-# Copy Configuration Files
-echo "Copying configuration files..."
-cp -r rose-pine-dots/* .
+git clone https://github.com/KatieUmbra/rose-pine-dots .
 
 # Configure eww
 echo "Configuring eww..."
