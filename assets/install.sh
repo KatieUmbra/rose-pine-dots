@@ -54,7 +54,7 @@ yay -S ttf-cousine-nerd ttf-work-sans ttf-firacode-nerd
 # Clone Configuration Files
 echo "Cloning configuration files..."
 cd ~/.config
-git clone https://github.com/KatieUmbra/rose-pine-dots .
+git clone https://github.com/egirldevs/dotfiles .
 
 # Configure eww
 echo "Configuring eww..."
