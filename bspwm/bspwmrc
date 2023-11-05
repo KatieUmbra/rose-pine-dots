@@ -24,7 +24,7 @@ exec copyq session > /dev/null &
 copyq hide &
 exec emote > /dev/null &
 picom --experimental-backends &
-feh --bg-scale '/home/Katie/Pictures/wallpaper-pink.png' &
+feh --bg-scale '/home/Katie/Pictures/wallpaper-pixel-clouds.png' &
 ## bspc rules
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9
