@@ -97,6 +97,13 @@ format = '[$duration]($style)'
 symbol = '[󱨊](blue)[󱨊](green)[󱨊](red) '
 format = '$symbol'
 
+[c]
+format = '[$symbol($version ($name))]($style) '
+version_format = "v${raw}"
+symbol = " "
+style = "blue"
+commands = [['clang','--version'],['gcc','--version'],['cc','--version']]
+
 [lua]
 format = '[$symbol]($style)' 
 symbol = ' '
@@ -111,6 +118,11 @@ style = 'bright-purple'
 format = '[$symbol]($style) '
 symbol = ' '
 style = 'red'
+
+[zig]
+format = "[$symbol]($style) "
+symbol = " "
+style = "yellow"
 
 [gradle]
 format = '[$symbol]($style) '
@@ -133,7 +145,12 @@ format = '[$symbol]($style)'
 [directory]
 format = '[ $path ](bg:blue fg:black)[$read_only]($read_only_style)'
 
+[package]
+format = ""
+symbol = " "
+
 # Git modules
 [git_branch]
 format = '[$symbol $branch(:$remote_branch)]($style) '
 symbol = '󰊢 '
+
