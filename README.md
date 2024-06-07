@@ -52,23 +52,23 @@ You can customize the configuration to your liking:
 
 ### cava
 
-![cava](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/.examples/cava.png)
+![cava](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/examples/cava.png)
 
 ### dunst
 
-![dunst](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/.examples/dunst.png)
+![dunst](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/examples/dunst.png)
 
 ### eww starship kitty bspwm fastfetch
 
-![eww starship kitty bspwm fastfetch](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/.examples/eww-starship-kitty-bspwm-fastfetch.png)
+![eww starship kitty bspwm fastfetch](https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/examples/eww-starship-kitty-bspwm-fastfetch.png)
 
 ### gtk
 
-![gtk](https://github.com/KatieUmbra/rose-pine-dots/blob/main/.examples/gtk.png?raw=true****)
+![gtk](https://github.com/KatieUmbra/rose-pine-dots/blob/main/examples/gtk.png?raw=true****)
 
 ### rofi
 
-![rofi](https://github.com/KatieUmbra/rose-pine-dots/blob/main/.examples/rofi.png?raw=true)
+![rofi](https://github.com/KatieUmbra/rose-pine-dots/blob/main/examples/rofi.png?raw=true)
 
 # Dependencies
 [Rose Pine GTK Theme](https://github.com/rose-pine/gtk)
