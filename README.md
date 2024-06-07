@@ -1,6 +1,17 @@
+<div align="center">
+
 # Rose Pine Dotfiles
 
+<img src="https://raw.githubusercontent.com/KatieUmbra/rose-pine-dots/main/examples/showcase.png">
+
+
 Rose Pine Dotfiles is a collection of configuration files for a Linux desktop environment, featuring the popular Rose Pine theme and a variety of software applications. It includes customizations for bspwm, cava, dunst, eww, starship, kitty, and more. The goal is to help you set up a stylish and functional Linux desktop environment quickly.
+
+![GitHub Repo stars](https://img.shields.io/github/stars/KatieUmbra/rose-pine-dots?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/KatieUmbra/rose-pine-dots?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/katieumbra/rose-pine-dots?style=for-the-badge)
+
+</div>
 
 ## Installation
 
