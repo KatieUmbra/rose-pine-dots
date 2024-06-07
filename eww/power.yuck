@@ -24,17 +24,17 @@
       :space-evenly true
       (button
         :class "text-button blue"
-        :onclick "pkill awesome & pkill bspwm & pkill sxhkd & pkill eww"
+        :onclick "loginctl kill-session 1"
         ""
         )
       (button
         :class "text-button purple"
-        :onclick "reboot"
+        :onclick "loginctl reboot"
         ""
         )
       (button
         :class "text-button red"
-        :onclick "shutdown now"
+        :onclick "loginctl poweroff"
         "󰐥"
         )
       )

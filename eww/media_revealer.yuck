@@ -1,12 +1,12 @@
 (include "./container.yuck")
 
-(defpoll isPlaying :interval "5s" "playerctl metadata --format '{{title}} - {{artist}}'")
+(defpoll isPlaying :interval "5s" "./scripts/player/is_playing.sh")
 (defvar mediaShown false)
-(defpoll currentTime :interval "1s" "playerctl metadata --format '{{position}}'")
-(defpoll length :interval "5s" "playerctl metadata --format '{{mpris:length}}'")
+(defpoll currentTime :interval "1s" "./scripts/player/current_time.sh")
+(defpoll length :interval "5s" "./scripts/player/length.sh")
 
-(defpoll t :interval "1s" "playerctl metadata --format '{{duration(position)}}'")
-(defpoll l :interval "5s" "playerctl metadata --format '{{duration(mpris:length)}}'")
+(defpoll t :interval "1s" "./scripts/player/t.sh")
+(defpoll l :interval "5s" "./scripts/player/l.sh")
 
 (defwidget media_revealer []
   (eventbox
@@ -41,7 +41,7 @@
       )
       (box
         :class "text-button blue"
-        ""
+        "󰝚"
       )
     )
   )

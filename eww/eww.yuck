@@ -20,12 +20,12 @@
   :geometry (geometry :x "0%"
               :y "0px"
               :width "100%"
-              :height "30px"
+              :height "50px"
               :anchor "top center")
   :class "bar"
   :stacking "bottom"
   :focusable false
-  :reserve (struts :distance "30px" :side "top")
+  :reserve (struts :distance "50px" :side "top")
   :windowtype "dock"
   :wm-ignore false
   (main)

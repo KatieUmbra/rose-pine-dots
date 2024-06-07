@@ -1,6 +1,6 @@
 (include "./container.yuck")
 
-(defpoll playing :interval "0.1s" 'playerctl metadata --format "{{status}}"')
+(defpoll playing :interval "0.1s" './scripts/player_metadata.sh')
 
 (defwidget playerctrl []
   (container

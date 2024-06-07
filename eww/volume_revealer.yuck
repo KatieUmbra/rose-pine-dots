@@ -15,11 +15,10 @@
         :reveal shown
         (scale
           :round-digits "0"
-          :name "Volume"
-          :min "0f"
-          :max "101f"
+          :min 0
+          :max 101
           :hexpand true
-          :width "100"
+          :width 100
           :value volume
           :onchange "pactl set-sink-volume 0 {}%"
         )

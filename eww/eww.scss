@@ -4,8 +4,8 @@ $yellow: #ffffea;
 $orange: #fff0d4;
 $red: #fbe0e0; 
 $purple: #e5d4ef;
-$gray_light: #505050;
-$gray_dark: #282828;
+$gray_light: #2a273f;
+$gray_dark: #232136;
 
 * {
 	font-family: "Work Sans", "Cousine Nerd Font", serif;
@@ -18,14 +18,14 @@ $gray_dark: #282828;
 // Windows
 
 .bar, .power, .calendar {
-	background-color: transparent;
+	background-color: rgba(35, 33, 54, 0.5);
 }
 
 // Global container
 
 .container {
 	margin: 5px 2.5px;
-	padding: 5px 5px;
+	padding: 5px 5px 5px 8px;
 	background-color: $gray_dark;
 	border-radius: 10px;
 }
