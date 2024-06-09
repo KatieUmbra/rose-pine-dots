@@ -19,6 +19,7 @@
     :onhoverlost "${EWW_CMD} close calendar && ${EWW_CMD} update symbol=''"
     (container
       (calendar
+        :class "calendarWidget"
         :show-details true
         :show-heading true
       )

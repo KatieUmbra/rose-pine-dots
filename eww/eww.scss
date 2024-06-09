@@ -17,8 +17,17 @@ $gray_dark: #232136;
 
 // Windows
 
-.bar, .power, .calendar {
+.bar {
 	background-color: rgba(35, 33, 54, 0.5);
+}
+
+.power, .calendar {
+    background-color: transparent;
+}
+
+.calendarWidget:selected {
+    color: $gray_light;
+    background-color: $purple;
 }
 
 // Global container
@@ -52,8 +61,13 @@ $gray_dark: #232136;
 	background-color: $gray_dark;
 	padding: 0px 9px 0px 6px;
 	revealer box {
+        progressbar trough {
+            min-width: 40px;
+        }
 		label {
 			margin: 0px 5px;
+            font-size: 15px;
+            color: $purple;
 		}
 	}
 }
