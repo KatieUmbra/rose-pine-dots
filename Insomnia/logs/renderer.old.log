@@ -1,0 +1,80 @@
+[2024-06-14 05:40:04.937] [info]  [db] Initialized DB client
+[2024-06-14 05:40:04.953] [info]  [plugin] Loading 
+[2024-06-14 05:40:05.779] [info]  Fetching projects for team org_1a134ce3-fd8d-4090-8a3e-f9f811dc5c1c
+[2024-06-14 05:40:05.891] [info]  Redirecting to last visited project proj_d07b5ade3f8d4a9c82b77bd7bd75acb7
+[2024-06-14 05:40:05.910] [info]  [FileSystemDriver] Initialized in "/home/Kathy/.config/Insomnia/version-control"
+[2024-06-14 05:40:09.052] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:40:09.053] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:09.054] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.b0cf6aef-db4d-484c-8023-7fea8d8857d5.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:09.106] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:40:09.106] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:09.108] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.f7e9f2f3-1d37-4b91-bf63-d2bbca427f0e.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:09.556] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:40:11.852] [info]  [network] Response succeeded req=req_0c50503cbd6a4e5fb52896469b7abeb7 status=200
+[2024-06-14 05:40:11.927] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:40:11.927] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:11.927] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.2679fe49-053b-4698-bccb-70bbe8612d82.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:40:12.032] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:41:09.392] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:41:09.472] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:41:09.472] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:41:09.472] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.e76eb833-7742-4784-9f7d-f206c7b39cb7.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:41:09.570] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:42:09.399] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:42:09.495] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:42:09.496] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:42:09.496] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.e6192252-d043-4301-99c8-ee34492c4bc8.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:42:09.591] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:43:09.361] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]
+[2024-06-14 05:43:09.445] [info]  [sync] Activated project prj_107054edcb404b8683f54e9ab17c4d4e
+[2024-06-14 05:43:09.445] [info]  [FileSystemDriver] Writing to /projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:43:09.446] [info]  [FileSystemDriver] Writing to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json.548fe5dd-6e89-4ac3-a0fe-f6386c2b7657.tmp then renaming to /home/Kathy/.config/Insomnia/version-control/projects/prj_107054edcb404b8683f54e9ab17c4d4e/meta.json
+[2024-06-14 05:43:09.542] [info]  [sync] Failed to query branches [
+  {
+    message: 'invalid access to project',
+    locations: [ { line: 3, column: 9 } ],
+    path: [ 'branches' ]
+  }
+]

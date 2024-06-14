@@ -1,0 +1,18 @@
+[2024-06-14 05:40:03.740] [info]  Running version 9.2.0
+[2024-06-14 05:40:03.762] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2024-06-14 05:40:03.782] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2024-06-14 05:40:03.810] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2024-06-14 05:40:03.992] [info]  [fix] Running database repairs
+[2024-06-14 05:40:04.080] [info]  [db] Initialized DB at /home/Kathy/.config/Insomnia/insomnia.$TYPE.db
+[2024-06-14 05:40:04.081] [info]  [db] Init responses DB
+[2024-06-14 05:40:04.081] [info]  [db] Init websocket-responses DB
+[2024-06-14 05:40:04.083] [info]  [localstorage] Initialized at /home/Kathy/.config/Insomnia/localStorage
+[2024-06-14 05:40:04.139] [info]  [main] Loading file:///opt/insomnia/resources/app.asar/index.html
+[2024-06-14 05:40:04.150] [info]  [main] Registering the hidden window restarting handler
+[2024-06-14 05:40:04.151] [info]  [updater] Not supported on this platform linux
+[2024-06-14 05:40:06.559] [info]  [main] Window ready, handling command line arguments [ '/opt/insomnia/insomnia' ]
+[2024-06-14 05:40:06.561] [info]  [main] Check args and create windows []
+[2024-06-14 05:40:06.561] [info]  [main] Checking for newer version than  9.2.0
+[2024-06-14 05:40:06.669] [info]  [main] Found newer version
+[2024-06-14 05:40:06.673] [info]  Backup found at: /home/Kathy/.config/Insomnia/backups/9.2.0

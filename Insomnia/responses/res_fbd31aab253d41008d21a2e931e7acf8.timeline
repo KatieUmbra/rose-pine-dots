@@ -1,0 +1,18 @@
+{"value":"Preparing request to http://localhost:8080/reqEmailVerify","name":"Text","timestamp":1718361434030}
+{"value":"Current time is 2024-06-14T10:37:14.030Z","name":"Text","timestamp":1718361434030}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1718361434030}
+{"value":"Using default HTTP version","name":"Text","timestamp":1718361434031}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1718361434031}
+{"value":"Enable SSL validation","name":"Text","timestamp":1718361434031}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1718361434032}
+{"name":"Text","value":"  Trying 127.0.0.1:8080...\n","timestamp":1718361434032}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 8080 (#2)\n","timestamp":1718361434032}
+{"name":"HeaderOut","value":"POST /reqEmailVerify HTTP/1.1\r\nHost: localhost:8080\r\nUser-Agent: insomnia/9.2.0\r\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImthbndpIiwiaWF0IjoxNzE4MzYxMTMyLCJleHAiOjE3MTg0NDc1MzJ9.ASnUfOAd26-n3aVTsSc7-UOkUl0PDmjW65HmL24RXAs\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n","timestamp":1718361434032}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1718361434741}
+{"name":"HeaderIn","value":"HTTP/1.1 500 Internal Server Error\r\n","timestamp":1718361434741}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1718361434741}
+{"name":"HeaderIn","value":"content-length: 83\r\n","timestamp":1718361434741}
+{"name":"HeaderIn","value":"date: Fri, 14 Jun 2024 10:37:14 GMT\r\n","timestamp":1718361434741}
+{"name":"HeaderIn","value":"\r\n","timestamp":1718361434741}
+{"name":"Text","value":"Received 83 B chunk","timestamp":1718361434741}
+{"name":"Text","value":"Connection #2 to host localhost left intact\n","timestamp":1718361434741}

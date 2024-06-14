@@ -1,0 +1,13 @@
+{"value":"Preparing request to http://localhost:8080/register","name":"Text","timestamp":1718359640148}
+{"value":"Current time is 2024-06-14T10:07:20.148Z","name":"Text","timestamp":1718359640148}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1718359640148}
+{"value":"Using default HTTP version","name":"Text","timestamp":1718359640149}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1718359640149}
+{"value":"Enable SSL validation","name":"Text","timestamp":1718359640149}
+{"name":"Text","value":"Hostname localhost was found in DNS cache\n","timestamp":1718359640150}
+{"name":"Text","value":"  Trying 127.0.0.1:8080...\n","timestamp":1718359640150}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 8080 (#2)\n","timestamp":1718359640150}
+{"name":"HeaderOut","value":"POST /register HTTP/1.1\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nUser-Agent: insomnia/9.2.0\r\nAccept: */*\r\nContent-Length: 113\r\n\r\n","timestamp":1718359640150}
+{"name":"DataOut","value":"{\n\t\"username\": \"asdfasfsafa\",\n\t\"display_name\": \"kathy\",\n\t\"email\": \"katherine@kaytea.dev\",\n\t\"password\": \"obama2\"\n}","timestamp":1718359640150}
+{"name":"Text","value":"Empty reply from server\n","timestamp":1718359641017}
+{"name":"Text","value":"Closing connection 2\n","timestamp":1718359641017}

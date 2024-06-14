@@ -23,7 +23,7 @@
               :height "50px"
               :anchor "top center")
   :class "bar"
-  :stacking "bottom"
+  :stacking "bg"
   :focusable false
   :reserve (struts :distance "50px" :side "top")
   :windowtype "dock"

@@ -1,0 +1,25 @@
+{
+  "author": "acct_2b597df2728f4a6e9e799e10df352cd6",
+  "authorAccount": {
+    "email": "katherine@kaytea.dev",
+    "firstName": "katherine@kaytea.dev",
+    "lastName": ""
+  },
+  "created": "2024-06-10T07:23:03.72Z",
+  "description": "",
+  "id": "6ddd85ba39f72072d98624ae47783282412d753a",
+  "name": "Initial Snapshot",
+  "parent": "0000000000000000000000000000000000000000",
+  "state": [
+    {
+      "blob": "5a6e287defc924666e73d63a01ba099eaf3e49bf",
+      "key": "env_e5253a87fea8e5c3cb6180ee614849629e18bdc5",
+      "name": "Base Environment"
+    },
+    {
+      "blob": "e4446e7e151d20e634619b3cf3d7fb621db017fe",
+      "key": "wrk_c534f780d48049cb8c8aa1734665c920",
+      "name": "My Collection"
+    }
+  ]
+}

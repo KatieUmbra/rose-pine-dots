@@ -1,0 +1,20 @@
+{"value":"Preparing request to http://localhost:8080/register","name":"Text","timestamp":1718361108176}
+{"value":"Current time is 2024-06-14T10:31:48.176Z","name":"Text","timestamp":1718361108176}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1718361108176}
+{"value":"Using default HTTP version","name":"Text","timestamp":1718361108177}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1718361108177}
+{"value":"Enable SSL validation","name":"Text","timestamp":1718361108177}
+{"name":"Text","value":"Found bundle for host localhost: 0x68805a78380 [serially]\n","timestamp":1718361108178}
+{"name":"Text","value":"Can not multiplex, even if we wanted to!\n","timestamp":1718361108178}
+{"name":"Text","value":"Re-using existing connection! (#9) with host localhost\n","timestamp":1718361108178}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 8080 (#9)\n","timestamp":1718361108178}
+{"name":"HeaderOut","value":"POST /register HTTP/1.1\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nUser-Agent: insomnia/9.2.0\r\nAccept: */*\r\nContent-Length: 107\r\n\r\n","timestamp":1718361108178}
+{"name":"DataOut","value":"{\n\t\"username\": \"kanwi\",\n\t\"display_name\": \"kathy\",\n\t\"email\": \"katherine@kaytea.dev\",\n\t\"password\": \"obama2\"\n}","timestamp":1718361108178}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1718361108995}
+{"name":"HeaderIn","value":"HTTP/1.1 409 Conflict\r\n","timestamp":1718361108995}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1718361108995}
+{"name":"HeaderIn","value":"content-length: 74\r\n","timestamp":1718361108995}
+{"name":"HeaderIn","value":"date: Fri, 14 Jun 2024 10:31:48 GMT\r\n","timestamp":1718361108995}
+{"name":"HeaderIn","value":"\r\n","timestamp":1718361108995}
+{"name":"Text","value":"Received 74 B chunk","timestamp":1718361108995}
+{"name":"Text","value":"Connection #9 to host localhost left intact\n","timestamp":1718361108995}

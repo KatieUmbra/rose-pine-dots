@@ -1,0 +1,16 @@
+{"value":"Preparing request to http://localhost:8080/register","name":"Text","timestamp":1718361893781}
+{"value":"Current time is 2024-06-14T10:44:53.781Z","name":"Text","timestamp":1718361893781}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1718361893781}
+{"value":"Using default HTTP version","name":"Text","timestamp":1718361893784}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1718361893784}
+{"value":"Enable SSL validation","name":"Text","timestamp":1718361893784}
+{"name":"Text","value":"  Trying 127.0.0.1:8080...\n","timestamp":1718361893785}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 8080 (#0)\n","timestamp":1718361893785}
+{"name":"HeaderOut","value":"POST /register HTTP/1.1\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nUser-Agent: insomnia/9.2.0\r\nAccept: */*\r\nContent-Length: 107\r\n\r\n","timestamp":1718361893785}
+{"name":"DataOut","value":"{\n\t\"username\": \"kanwi\",\n\t\"display_name\": \"kathy\",\n\t\"email\": \"katherine@kaytea.dev\",\n\t\"password\": \"obama2\"\n}","timestamp":1718361893785}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1718361894476}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1718361894476}
+{"name":"HeaderIn","value":"content-length: 0\r\n","timestamp":1718361894476}
+{"name":"HeaderIn","value":"date: Fri, 14 Jun 2024 10:44:54 GMT\r\n","timestamp":1718361894476}
+{"name":"HeaderIn","value":"\r\n","timestamp":1718361894476}
+{"name":"Text","value":"Connection #0 to host localhost left intact\n","timestamp":1718361894476}

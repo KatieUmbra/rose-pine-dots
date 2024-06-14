@@ -46,6 +46,13 @@ cp rose-pine-dots/* .
 
 Run `eww inspector` and select the "rose-pine-moon-gtk" visual configuration.
 
+(IF USING ZSH ONLY) add 
+```sh
+export ZDOTDIR="$HOME/.config/zsh"
+export HISTFILE="$ZDOTDIR"
+```
+to your `/etc/zsh/zshenv` (create the file if it doesn't exist).
+
 Set up [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) in your shell.
 
 ### Customization

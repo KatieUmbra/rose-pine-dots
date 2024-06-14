@@ -1,0 +1,19 @@
+{"value":"Preparing request to http://localhost:8080/info","name":"Text","timestamp":1718057407268}
+{"value":"Current time is 2024-06-10T22:10:07.268Z","name":"Text","timestamp":1718057407268}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1718057407268}
+{"value":"Using default HTTP version","name":"Text","timestamp":1718057407269}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1718057407269}
+{"value":"Enable SSL validation","name":"Text","timestamp":1718057407269}
+{"name":"Text","value":"Found bundle for host localhost: 0x204403c57580 [serially]\n","timestamp":1718057407269}
+{"name":"Text","value":"Can not multiplex, even if we wanted to!\n","timestamp":1718057407269}
+{"name":"Text","value":"Re-using existing connection! (#0) with host localhost\n","timestamp":1718057407269}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 8080 (#0)\n","timestamp":1718057407269}
+{"name":"HeaderOut","value":"GET /info HTTP/1.1\r\nHost: localhost:8080\r\nUser-Agent: insomnia/9.2.0\r\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImthbndpIiwiaWF0IjoxNzE4MDU3Mzc1LCJleHAiOjE3MjUzMTQ5NzV9.6uYGK2LFzv1KLREDKO8hwxK7-ZGyCicTmr0OP-tmjWQ\r\nAccept: */*\r\n\r\n","timestamp":1718057407269}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1718057407270}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1718057407270}
+{"name":"HeaderIn","value":"content-type: text/plain; charset=utf-8\r\n","timestamp":1718057407270}
+{"name":"HeaderIn","value":"content-length: 59\r\n","timestamp":1718057407270}
+{"name":"HeaderIn","value":"date: Mon, 10 Jun 2024 22:10:07 GMT\r\n","timestamp":1718057407270}
+{"name":"HeaderIn","value":"\r\n","timestamp":1718057407270}
+{"name":"Text","value":"Received 59 B chunk","timestamp":1718057407270}
+{"name":"Text","value":"Connection #0 to host localhost left intact\n","timestamp":1718057407270}
