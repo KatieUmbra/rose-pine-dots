@@ -89,3 +89,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Go
 export GOPATH="$HOME/.go"
 # =============
+
+# Extension Scripts
+# =============
+
+# source $ZDOTDIR/ssh_agent.sh
+
+# =============
