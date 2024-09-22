@@ -1,5 +1,5 @@
 /*******************************************************************************
- * ROFI SQUARED THEME USING THE NORD PALETTE 
+ * ROFI SQUARED THEME USING THE ROSE PINE PALETTE 
  * User                 : LR-Tech               
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  *******************************************************************************/
@@ -7,7 +7,7 @@
 /* Rose Pine colors implemented by kathy*/
 
 * {
-    font:   "FiraCode Nerd Font Medium 12";
+    font:   "Work Sans Medium Neon Regular 12";
 
     bg0:     #232136;
     bg1:     #393552;

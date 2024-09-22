@@ -20,6 +20,8 @@ alias cat="bat"
 alias top="bashtop"
 alias htop="bashtop"
 alias fetch="fastfetch"
+alias neofetch="fastfetch"
+alias peaclock="peaclock --config-dir ~/.config/peaclock"
 
 # Disable Vim Mode
 bindkey -e
@@ -71,6 +73,9 @@ setopt appendhistory
 
 # [[ Environment Variables ]]
 # =============
+
+# Local binary
+export PATH="$PATH:$HOME/.bin"
 
 # C / C++ Compiler
 export CC=clang

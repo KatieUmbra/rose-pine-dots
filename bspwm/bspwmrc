@@ -6,18 +6,20 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 # Stating programs
 
-pgrep -x trayer > /dev/null || exec trayer --edge bottom --align right --height 15 --SetDockType true --transparent true --alpha 256 --margin 15 &
 pgrep -x eww &> /dev/null || eww open bar &> /dev/null &
+pgrep -x trayer > /dev/null || exec trayer --edge bottom --align right --height 15 --SetDockType true --transparent true --alpha 256 --margin 15 &
 xdo lower -N eww-bar
 xdo lower -N eww-bar
 xdo lower -N eww-bar
+feh --bg-fill '/home/Kathy/moon-clouds-4k.png' &
 pgrep -x copyq > /dev/null || exec copyq session > /dev/null &copyq hide &
 pgrep -x emote > /dev/null || exec emote > /dev/null &
 pgrep -x picom > /dev/null || exec picom --experimental-backends &
-feh --bg-fill '/home/Kathy/Pictures/moon-clouds-4k.png' &
 pgrep -x pipewire > /dev/null || /usr/bin/pipewire &
 pgrep -x pipewire-pulse > /dev/null || /usr/bin/pipewire-pulse &
 pgrep -x wireplumber > /dev/null || /usr/bin/wireplumber &
+
+exec /home/Kathy/.scripts/rclone_onedrive.sh &
 
 ## bspc rules
 
