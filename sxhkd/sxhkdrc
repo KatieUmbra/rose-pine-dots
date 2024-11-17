@@ -145,6 +145,15 @@ super + v
 ctrl + shift + b
     librewolf &
 
+# Vesktop mute/deafen
+F8;@F8
+	xdotool search vesktop windowactivate --sync;\
+	xdotool key ctrl+shift+m;
+
+F9;@F9
+	xdotool search vesktop windowactivate --sync;\
+	xdotool key ctrl+shift+d;
+
 #volume control
 XF86AudioRaiseVolume
     pactl set-sink-volume 0 +5%
