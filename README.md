@@ -49,7 +49,7 @@ Run `eww inspector` and select the "rose-pine-moon-gtk" visual configuration.
 (IF USING ZSH ONLY) add 
 ```sh
 export ZDOTDIR="$HOME/.config/zsh"
-export HISTFILE="$ZDOTDIR"
+export HISTFILE="$ZDOTDIR/.zsh_history"
 ```
 to your `/etc/zsh/zshenv` (create the file if it doesn't exist).
 
